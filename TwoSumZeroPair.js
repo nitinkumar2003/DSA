@@ -5,6 +5,8 @@ function ZeroSum(array){
     let right=sortedArr.length-1;
     console.log(sortedArr);
     
+
+    
     while(left < right){
         let sum=sortedArr[left] + sortedArr[right];
         if(sum==0){
