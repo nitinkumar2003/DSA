@@ -11,7 +11,7 @@ var findMin = function(nums) {
           if(nums[mid] < nums[right]){
               right=mid
           }else{
-              left=mid+1
+              lenft=mid+1
           }
       }
       return nums[left]
